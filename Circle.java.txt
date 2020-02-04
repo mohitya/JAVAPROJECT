@@ -1,0 +1,8 @@
+public class{
+
+float r=9.0f;
+double ac=2*3.141*r*r;
+syste.out.println("area of circle="+ac);
+
+public static void main(String []args){
+}
