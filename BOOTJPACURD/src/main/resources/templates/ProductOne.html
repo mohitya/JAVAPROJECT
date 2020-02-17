@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>ID</th>
+<td th:text="${ob.prodId}"></td>
+</tr>
+<tr>
+<th>CODE</th>
+<td th:text="${ob.prodCode}"></td>
+</tr>
+<tr>
+<th>COST</th>
+<td th:text="${ob.prodCost}"></td>
+</tr>
+<tr>
+<th>GST</th>
+<td th:text="${ob.gst}"></td>
+</tr>
+<tr>
+<th>DISCOUNT</th>
+<td th:text="${ob.discount}"></td>
+</tr>
+</table>
+</body>
+</html>
